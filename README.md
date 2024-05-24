@@ -12,32 +12,9 @@ Custom-object-detection-with-YOLOv8: Directory for training and testing custom o
 
 final_fog.ipynb, final_rain.ipynb, final_sand.ipynb,final_snow.ipynb: an implementation example for the trained models.
 
-class-descriptions-boxable.csv : a CSV file that contains all the IDs corresponding to the classes provided by the OpenImages library for object detection
+The best weight obtained from above training models are capture in folder 
 
-Alpaca detector (single class object detector):
-
--Kaggle- Alpaca detector-train.ipynb: Kaggle notebook that demonstrates how to preprocess data to train a single class (alpaca) object detector based on YOLOv8 architecture.
-alpaca training results: a folder that contains training results data for the alpaca detector.
-config -colab-.yaml and config -kaggle-.yaml: YAML files for training configuration for both Kaggle and colab versions.
-Bee and Butterfly classes detector ( multi-class object detector):
-
-Bees and Butterflies YOLOv8_Custom_Object_detector.ipynb: Kaggle notebook that demonstrates how to preprocess data to train a multi-class (Bee class and Butterfly class) object detector based on YOLOv8 architecture.
-Bee and Butterfly 60 epochs: a folder that contains training results data for the Bee and Butterfly detector for 60 epochs of training.
-Ant and Insect classes detector ( multi-class object detector):
-
--Kaggle- Ant and Insect detector-train.ipynb: Kaggle notebook that demonstrates how to preprocess data to train a multi-class (Ant class and Insect class) object detector based on YOLOv8 architecture.
-Ant and insect training results 5 epochs: a folder that contains training results data for the And and Insect detector for 5 epochs.
-Ant and insect training results 45 epochs: a folder that contains training results data for the And and Insect detector for 45 epochs.
-PPE-cutom-object-detection-with-YOLOv8: Directory for personal protective equipement detection, it contains the following folders files:
-
-YOLOv8_PPE_object_detection.ipynb: google colab notebook for PPE object detection.
-ppe.pt: PPE detection model, pre-trained.
-test imgs and img results: folders that contain testing images and resulting images with annotated PPE information.
-yolo_detect_and_count.py : python module, developed i a previous project that provides simple classes for object detection and object tracking and counting with YOLOv8.
-requirements.txt requirements for the sort.py which itself is used by the yolo_detect_and_count.py module.
-Data Collection and Preprocessing for Object Detection using YOLOv8
-In this section we will go through all the steps necessary to collect and preprocess data in order to prepare it to be trained for object detection using YOLOv8.
-
+Custom object detection using YOLOv8/Rain training results for epoch 100/results.csv
 Data collection:
 To collect diverse and representative data for object detection using YOLOv8, or generally any other object detection model, the Open Images library provides a valuable resource that includes millions of well-labeled images with a wide range of object classes.
 
